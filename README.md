@@ -1,19 +1,24 @@
 
-WePOS - Cafe v.3.42.22 (Free Version)
+WePOS - Cafe v.3.42.22
 Updated: 07-01-2021 01:00:00
 
 Cocok untuk:
 Cafe/Resto/Rumah Makan (semua penjualan berbasis Cafe)
 
-Terima Kasih sudah Download dan Support WePOS.id, 
-WePOS sudah dibuat sejak tahun 2015, update bertahap sesuai kebutuhan Cafe & Resto
+Aplikasi ini menggunakan:
+- Codeigniter 3.1.13 | https://www.codeigniter.com/ | MIT License
+- ExtJS 4.2 GPL v.3 | sencha.com | GPL v3 (source bisa dilihat di folder "assets\js\extjs.4.2")
+- JQuery v1.7.1 jquery.com | jquery.org | MIT License
+- Database MySQL GPL v2
+
 untuk versi Retail/Toko: https://github.com/copolatoz/wepos-retail
 
-*untuk auto update: silahkan daftarkan merchant/cafe/resto untuk mendapatkan merchant-key
+*aplikasi ini berisi modul-modul standar untuk sistem cafe/resto 
+*untuk modul lengkap silahkan daftarkan merchant/cafe/resto untuk mendapatkan merchant-key di wepos.id
 
 #Cara Instalasi Aplikasi:
 1. Install XAMPP 5.5.24 atau 5.6.32
-2. copy-paste folder hasil download aplikasi 'wepos-free' ke xampp/htdocs/
+2. copy-paste folder hasil download aplikasi 'wepos-cafe' ke xampp/htdocs/
 
 	#copy dan rename file:
 	1. copy index.php.org --> index.php
@@ -26,35 +31,32 @@ untuk versi Retail/Toko: https://github.com/copolatoz/wepos-retail
 
 	#import database: db/database_wepos_free.sql
 	1. akses ke http://localhost/phpmyadmin
-	2. buat database baru misal: wepos-free
-	3. import db/database_wepos_free.sql
+	2. buat database baru misal: wepos-cafe
+	3. import db/database_wepos_cafe.sql
 
 
-3. run di browser sesuai nama folder yang digunakan, default: http://localhost/wepos-free
+3. run di browser sesuai nama folder yang digunakan, default: http://localhost/wepos
 
 	#Mengganti URL menjadi http://localhost/nama-cafe-anda
-	1. ganti nama folder download 'wepos-free' menjadi 'nama-cafe-anda'
-	2. ubah isi/text pada file .htaccess 'wepos-free' menjadi 'nama-cafe-anda'
+	1. ganti nama folder download 'wepos-cafe' menjadi 'nama-cafe-anda'
+	2. ubah isi/text pada file .htaccess 'wepos-cafe' menjadi 'nama-cafe-anda'
 		*jika .htaccess tidak ditemukan, ubah settingan folder anda agar dapat melihat hidden file dan ekstensi file
 		*gunakan editor semisal notepad++ untuk save-as atau membuat/edit file .htaccess
 	
-	#integrasi dengan WePOS.Cashier - Android:
-	1. rename folder utama (default: 'wepos-free') menjadi 'wepos'
-	2. ubah isi/text pada file .htaccess (default: 'wepos-free') menjadi 'wepos'
+	#integrasi dengan WePOS.Cashier - Android Browser:
+	1. Install Aplikasi RawBT
+	2. Setup Setingan printer di RawBT
+        3. Setup Printer di Aplikasi WePOS dengan tipe "Android" 
 
 
-4. untuk setup printer Thermal -> silahkan download extension PHP di website (login wepos.id)
+4. untuk setup printer Thermal -> silahkan download extension PHP di website wepos.id atau bisa google "printer extension untuk php 5.6"
 
-*Untuk Instalasi lengkap bisa baca di dokumentasi (login website, wepos.id)
-#Silahkan Donasi untuk versi gratisan yang lebih baik ^^ 
-#terima kasih untuk rekan-rekan yang sudah support WePOS
+
 
 Team WePOS ^^
 contact@wepos.id 
-081222549676
 
-*SELALU DUKUNG KARYA ANAK BANGSA!! 
-*JANGAN MALU UNTUK BERTANYA - GRATIS KONSULTASI
+
 
 
 
