@@ -6,9 +6,9 @@ Cocok untuk:
 Cafe/Resto/Rumah Makan (semua penjualan berbasis Cafe)
 
 Aplikasi ini menggunakan:
-- Codeigniter 3.1.13 | https://www.codeigniter.com/ | MIT License
+- Codeigniter 3.1.13 | codeigniter.com/ | MIT License
 - ExtJS 4.2 GPL v.3 | sencha.com | GPL v3 (source bisa dilihat di folder "assets\js\extjs.4.2")
-- JQuery v1.7.1 jquery.com | jquery.org | MIT License
+- JQuery v1.7.1 | jquery.com | MIT License
 - Database MySQL GPL v2
 
 untuk versi Retail/Toko: https://github.com/copolatoz/wepos-retail
